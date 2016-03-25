@@ -8,20 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -187,27 +201,6 @@
 <wire x1="0" y1="3.95" x2="-7.9" y2="3.95" width="0.127" layer="21"/>
 <wire x1="0" y1="-3.95" x2="0" y2="3.95" width="0.127" layer="21"/>
 </package>
-<package name="POWERPOLE_PAIR_25A_HORIZ_G2">
-<pad name="RED" x="-3.95" y="-7.1" drill="1.8" shape="long" rot="R90"/>
-<pad name="BLACK" x="3.95" y="-7.1" drill="1.8" shape="long" rot="R90"/>
-<wire x1="-7.9" y1="24.6" x2="-7.9" y2="16.4" width="0.127" layer="21"/>
-<wire x1="-7.9" y1="16.4" x2="-7.9" y2="15.97" width="0.127" layer="21"/>
-<wire x1="-7.9" y1="13.43" x2="-7.9" y2="0" width="0.127" layer="21"/>
-<wire x1="-7.9" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="7.9" y2="0" width="0.127" layer="21"/>
-<wire x1="7.9" y1="0" x2="7.9" y2="13.43" width="0.127" layer="21"/>
-<wire x1="7.9" y1="15.97" x2="7.9" y2="16.4" width="0.127" layer="21"/>
-<wire x1="7.9" y1="16.4" x2="7.9" y2="24.6" width="0.127" layer="21"/>
-<wire x1="7.9" y1="24.6" x2="0" y2="24.6" width="0.127" layer="21"/>
-<text x="-10.16" y="0" size="2.54" layer="21" font="vector">+</text>
-<wire x1="0" y1="24.6" x2="-7.9" y2="24.6" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="13.43" width="0.127" layer="21"/>
-<wire x1="0" y1="15.97" x2="0" y2="24.6" width="0.127" layer="21"/>
-<circle x="0" y="14.7" radius="1.27" width="0.127" layer="21"/>
-<wire x1="-7.9" y1="15.97" x2="-7.9" y2="13.43" width="0.127" layer="21" curve="-180"/>
-<wire x1="7.9" y1="15.97" x2="7.9" y2="13.43" width="0.127" layer="21" curve="180"/>
-<wire x1="-7.9" y1="16.4" x2="7.9" y2="16.4" width="0.127" layer="21"/>
-</package>
 <package name="POWERPOLE_PAIR_55A_HORIZ_MINI">
 <text x="6.35" y="2.54" size="1.27" layer="21">red</text>
 <pad name="BLACK2" x="-2.48" y="0" drill="2.6"/>
@@ -264,6 +257,108 @@
 <wire x1="16" y1="-2.76" x2="17.25" y2="-2.76" width="0.127" layer="21"/>
 <wire x1="17.25" y1="-2.76" x2="17.25" y2="8.44" width="0.127" layer="21"/>
 <wire x1="17.25" y1="8.44" x2="-17.25" y2="8.44" width="0.127" layer="21"/>
+</package>
+<package name="POWERPOLE_PAIR_25A_HORIZ_G2">
+<pad name="BLACK" x="-3.95" y="-7.1" drill="1.8" shape="long" rot="R90"/>
+<pad name="RED" x="3.95" y="-7.1" drill="1.8" shape="long" rot="R90"/>
+<wire x1="-7.9" y1="24.6" x2="-7.9" y2="16.4" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="16.4" x2="-7.9" y2="15.97" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="13.43" x2="-7.9" y2="0" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="7.9" y2="0" width="0.127" layer="21"/>
+<wire x1="7.9" y1="0" x2="7.9" y2="13.43" width="0.127" layer="21"/>
+<wire x1="7.9" y1="15.97" x2="7.9" y2="16.4" width="0.127" layer="21"/>
+<wire x1="7.9" y1="16.4" x2="7.9" y2="24.6" width="0.127" layer="21"/>
+<wire x1="7.9" y1="24.6" x2="0" y2="24.6" width="0.127" layer="21"/>
+<text x="8.89" y="0" size="2.54" layer="21" font="vector">+</text>
+<wire x1="0" y1="24.6" x2="-7.9" y2="24.6" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="13.43" width="0.127" layer="21"/>
+<wire x1="0" y1="15.97" x2="0" y2="24.6" width="0.127" layer="21"/>
+<circle x="0" y="14.7" radius="1.27" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="15.97" x2="-7.9" y2="13.43" width="0.127" layer="21" curve="-180"/>
+<wire x1="7.9" y1="15.97" x2="7.9" y2="13.43" width="0.127" layer="21" curve="180"/>
+<wire x1="-7.9" y1="16.4" x2="7.9" y2="16.4" width="0.127" layer="21"/>
+</package>
+<package name="POWERPOLE_PAIR_45A">
+<pad name="RED" x="-3.95" y="-1.15" drill="1.27" diameter="3.5" shape="long"/>
+<pad name="BLACK" x="3.95" y="-1.15" drill="1.27" diameter="3.5" shape="long"/>
+<wire x1="-7.9" y1="3.95" x2="-7.9" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-3.95" x2="0" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.95" x2="7.9" y2="-3.95" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-3.95" x2="7.9" y2="3.95" width="0.127" layer="21"/>
+<wire x1="7.9" y1="3.95" x2="0" y2="3.95" width="0.127" layer="21"/>
+<text x="-10.16" y="2.54" size="2.54" layer="21" font="vector">+</text>
+<wire x1="0" y1="3.95" x2="-7.9" y2="3.95" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.95" x2="0" y2="3.95" width="0.127" layer="21"/>
+<hole x="-1.97" y="-1.15" drill="1.27"/>
+<hole x="-5.93" y="-1.15" drill="1.27"/>
+<hole x="1.97" y="-1.15" drill="1.27"/>
+<hole x="5.93" y="-1.15" drill="1.27"/>
+<hole x="-4.66" y="-1.15" drill="1.27"/>
+<hole x="-3.39" y="-1.15" drill="1.27"/>
+<hole x="3.24" y="-1.15" drill="1.27"/>
+<hole x="4.66" y="-1.15" drill="1.27"/>
+<hole x="-5.676" y="-1.15" drill="1.27"/>
+<hole x="-5.803" y="-1.15" drill="1.27"/>
+<hole x="-5.549" y="-1.15" drill="1.27"/>
+<hole x="-5.422" y="-1.15" drill="1.27"/>
+<hole x="-5.295" y="-1.15" drill="1.27"/>
+<hole x="-5.168" y="-1.15" drill="1.27"/>
+<hole x="-5.041" y="-1.15" drill="1.27"/>
+<hole x="-4.914" y="-1.15" drill="1.27"/>
+<hole x="-4.787" y="-1.15" drill="1.27"/>
+<hole x="-2.097" y="-1.15" drill="1.27"/>
+<hole x="-2.224" y="-1.15" drill="1.27"/>
+<hole x="-2.351" y="-1.15" drill="1.27"/>
+<hole x="-2.478" y="-1.15" drill="1.27"/>
+<hole x="-2.605" y="-1.15" drill="1.27"/>
+<hole x="-2.732" y="-1.15" drill="1.27"/>
+<hole x="-2.986" y="-1.15" drill="1.27"/>
+<hole x="-2.859" y="-1.15" drill="1.27"/>
+<hole x="-3.113" y="-1.15" drill="1.27"/>
+<hole x="-3.24" y="-1.15" drill="1.27"/>
+<hole x="-3.517" y="-1.15" drill="1.27"/>
+<hole x="-3.644" y="-1.15" drill="1.27"/>
+<hole x="-3.771" y="-1.15" drill="1.27"/>
+<hole x="-3.898" y="-1.15" drill="1.27"/>
+<hole x="-4.025" y="-1.15" drill="1.27"/>
+<hole x="-4.152" y="-1.15" drill="1.27"/>
+<hole x="-4.279" y="-1.15" drill="1.27"/>
+<hole x="-4.406" y="-1.15" drill="1.27"/>
+<hole x="-4.533" y="-1.15" drill="1.27"/>
+<hole x="5.803" y="-1.15" drill="1.27"/>
+<hole x="5.676" y="-1.15" drill="1.27"/>
+<hole x="5.549" y="-1.15" drill="1.27"/>
+<hole x="5.422" y="-1.15" drill="1.27"/>
+<hole x="5.295" y="-1.15" drill="1.27"/>
+<hole x="5.168" y="-1.15" drill="1.27"/>
+<hole x="5.041" y="-1.15" drill="1.27"/>
+<hole x="4.914" y="-1.15" drill="1.27"/>
+<hole x="4.787" y="-1.15" drill="1.27"/>
+<hole x="4.533" y="-1.15" drill="1.27"/>
+<hole x="4.406" y="-1.15" drill="1.27"/>
+<hole x="4.279" y="-1.15" drill="1.27"/>
+<hole x="4.025" y="-1.15" drill="1.27"/>
+<hole x="4.025" y="-1.15" drill="1.27"/>
+<hole x="4.152" y="-1.15" drill="1.27"/>
+<hole x="3.898" y="-1.15" drill="1.27"/>
+<hole x="3.771" y="-1.15" drill="1.27"/>
+<hole x="3.771" y="-1.15" drill="1.27"/>
+<hole x="3.644" y="-1.15" drill="1.27"/>
+<hole x="3.644" y="-1.15" drill="1.27"/>
+<hole x="3.644" y="-1.15" drill="1.27"/>
+<hole x="3.517" y="-1.15" drill="1.27"/>
+<hole x="3.517" y="-1.15" drill="1.27"/>
+<hole x="3.39" y="-1.15" drill="1.27"/>
+<hole x="3.113" y="-1.15" drill="1.27"/>
+<hole x="2.986" y="-1.15" drill="1.27"/>
+<hole x="2.859" y="-1.15" drill="1.27"/>
+<hole x="2.732" y="-1.15" drill="1.27"/>
+<hole x="2.605" y="-1.15" drill="1.27"/>
+<hole x="2.478" y="-1.15" drill="1.27"/>
+<hole x="2.351" y="-1.15" drill="1.27"/>
+<hole x="2.224" y="-1.15" drill="1.27"/>
+<hole x="2.097" y="-1.15" drill="1.27"/>
 </package>
 </packages>
 <symbols>
@@ -363,6 +458,15 @@ using ameteur radio standard layout</description>
 <connects>
 <connect gate="G$1" pin="GND" pad="BLACK1 BLACK2 BLACK3 BLACK4"/>
 <connect gate="G$1" pin="V+" pad="RED1 RED2 RED3 RED4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="45A" package="POWERPOLE_PAIR_45A">
+<connects>
+<connect gate="G$1" pin="GND" pad="BLACK"/>
+<connect gate="G$1" pin="V+" pad="RED"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8594,43 +8698,41 @@ Metric Code Size 5664</description>
 </class>
 </classes>
 <parts>
-<part name="J1" library="powerpoles" deviceset="POWERPOLE_POWER" device="10AWG" value="POWERPOLE_POWER10AWG"/>
+<part name="J1" library="powerpoles" deviceset="POWERPOLE_POWER" device="45A" value="POWERPOLE_POWER45A"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="J2" library="powerpoles" deviceset="FUSE" device="ATC"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="3MM"/>
-<part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="5.0"/>
-<part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="5.0"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="050-025X075"/>
-<part name="J3" library="powerpoles" deviceset="POWERPOLE_POWER" device="10AWG" value="POWERPOLE_POWER10AWG"/>
+<part name="J3" library="powerpoles" deviceset="POWERPOLE_POWER" device="45A" value="POWERPOLE_POWER45A"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="J4" library="powerpoles" deviceset="FUSE" device="ATC"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="050-025X075"/>
-<part name="J5" library="powerpoles" deviceset="POWERPOLE_POWER" device="10AWG" value="POWERPOLE_POWER10AWG"/>
+<part name="J5" library="powerpoles" deviceset="POWERPOLE_POWER" device="45A" value="POWERPOLE_POWER45A"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="J6" library="powerpoles" deviceset="FUSE" device="ATC"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="050-025X075"/>
-<part name="J7" library="powerpoles" deviceset="POWERPOLE_POWER" device="10AWG" value="POWERPOLE_POWER10AWG"/>
+<part name="J7" library="powerpoles" deviceset="POWERPOLE_POWER" device="45A" value="POWERPOLE_POWER45A"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="J8" library="powerpoles" deviceset="FUSE" device="ATC"/>
 <part name="LED4" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="C4" library="resistor" deviceset="C-EU" device="050-025X075"/>
-<part name="J9" library="powerpoles" deviceset="POWERPOLE_POWER" device="10AWG" value="POWERPOLE_POWER10AWG"/>
+<part name="J9" library="powerpoles" deviceset="POWERPOLE_POWER" device="45A" value="POWERPOLE_POWER45A"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="J10" library="powerpoles" deviceset="FUSE" device="ATC"/>
 <part name="LED5" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="C5" library="resistor" deviceset="C-EU" device="050-025X075"/>
-<part name="J11" library="powerpoles" deviceset="POWERPOLE_POWER" device="10AWG" value="POWERPOLE_POWER10AWG"/>
+<part name="J11" library="powerpoles" deviceset="POWERPOLE_POWER" device="45A" value="POWERPOLE_POWER45A"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0204/7"/>
 <part name="J12" library="powerpoles" deviceset="FUSE" device="ATC"/>
 <part name="LED6" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="C6" library="resistor" deviceset="C-EU" device="050-025X075"/>
-<part name="H3" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0" value="MOUNT-PAD-ROUND3.0"/>
-<part name="H4" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0" value="MOUNT-PAD-ROUND3.0"/>
-<part name="H5" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0" value="MOUNT-PAD-ROUND3.0"/>
-<part name="H6" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0" value="MOUNT-PAD-ROUND3.0"/>
+<part name="H3" library="holes" deviceset="MOUNT-PAD-ROUND" device="4.1" value="MOUNT-PAD-ROUND4.1"/>
+<part name="H4" library="holes" deviceset="MOUNT-PAD-ROUND" device="4.1" value="MOUNT-PAD-ROUND4.1"/>
+<part name="H5" library="holes" deviceset="MOUNT-PAD-ROUND" device="4.1" value="MOUNT-PAD-ROUND4.1"/>
+<part name="H6" library="holes" deviceset="MOUNT-PAD-ROUND" device="4.1" value="MOUNT-PAD-ROUND4.1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8642,8 +8744,6 @@ Metric Code Size 5664</description>
 <instance part="R1" gate="G$1" x="7.62" y="55.88" rot="R90"/>
 <instance part="J2" gate="G$1" x="-5.08" y="63.5" rot="R90"/>
 <instance part="LED1" gate="G$1" x="7.62" y="68.58"/>
-<instance part="H2" gate="G$1" x="-15.24" y="93.98" rot="R180"/>
-<instance part="H1" gate="G$1" x="-15.24" y="10.16" rot="R180"/>
 <instance part="C1" gate="G$1" x="-10.16" y="27.94" rot="R180"/>
 <instance part="J3" gate="G$1" x="38.1" y="27.94"/>
 <instance part="R2" gate="G$1" x="40.64" y="55.88" rot="R90"/>
@@ -8686,18 +8786,15 @@ Metric Code Size 5664</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="7.62" y1="10.16" x2="20.32" y2="10.16" width="0.1524" layer="91"/>
 <junction x="7.62" y="10.16"/>
-<pinref part="H1" gate="G$1" pin="MOUNT"/>
 <wire x1="20.32" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="10.16" x2="96.52" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="10.16" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="10.16" x2="-5.08" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="22.86" x2="-10.16" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-5.08" y="22.86"/>
-<junction x="-5.08" y="10.16"/>
 <pinref part="J9" gate="G$1" pin="GND"/>
 <wire x1="129.54" y1="22.86" x2="129.54" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -8772,13 +8869,10 @@ Metric Code Size 5664</description>
 <wire x1="-5.08" y1="76.2" x2="-5.08" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="81.28" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="H2" gate="G$1" pin="MOUNT"/>
 <wire x1="27.94" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-5.08" y="81.28"/>
-<junction x="-5.08" y="93.98"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="71.12" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
