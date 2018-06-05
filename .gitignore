@@ -41,3 +41,21 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
+# Gerber files
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+
+# Windows files
+Thumbs.db
+
+#Inventro files
+OldVersions
